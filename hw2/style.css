@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&display=swap');
+
+body {
+  font-size: 16px;
+  font-family: 'Azeret Mono', monospace;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(14, 11, 11);
+  color: #fff;
+  padding: 15px;
+}
+
+header .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  margin-left: 15px;
+}
+
+.menu ul li:first-child {
+  margin-left: 0;
+}
+
+.menu ul li a {
+  text-decoration: none;
+}
