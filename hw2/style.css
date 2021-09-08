@@ -1,25 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body {
   font-size: 16px;
-  font-family: 'Azeret Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
   width: 100%;
-  background-color: rgb(14, 11, 11);
-  color: #fff;
-  padding: 15px;
+  background-color:#444;
+  color: #e6e6e6;
+  padding: 0px;
 }
-
+header a{
+  color: #d6d6d6;
+}
 header .top {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px;
+  padding-block-end: 0%;
 }
 
-.menu {
+header .menu {
   width: 100%;
+  background-color: #333333;
+  padding: 15px;
+  font-size: 14px;
 }
 
 .menu ul {
@@ -27,10 +34,11 @@ header .top {
   display: flex;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .menu ul li {
-  margin-left: 15px;
+  margin-left: 50px;
 }
 
 .menu ul li:first-child {
@@ -39,4 +47,8 @@ header .top {
 
 .menu ul li a {
   text-decoration: none;
+}
+
+.top_inp {
+  &#128269
 }
