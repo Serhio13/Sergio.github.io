@@ -3,7 +3,6 @@
 body {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
-
 }
 
 header {
@@ -72,4 +71,22 @@ footer {
 
 footer a {
   color: #d6d6d6;
+}
+
+.foot {
+  width: 100%;
+  background-color: #333333;
+  padding: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.tel {
+  text-decoration: none;
+}
+
+footer .menu {
+  width: 100%;
+  padding: 15px;
+  font-size: 14px;
 }
