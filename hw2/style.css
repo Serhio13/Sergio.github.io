@@ -118,13 +118,15 @@ footer .menu {
 
 aside {
  float: left;
+ max-height:0px;
 }
 
 aside ul{
   list-style: none;
   padding-left: 15px;
   width: 250px;
-  border: 1px solid #d2d2d7;
+  border: 2px solid #707070;
+  background-color: #575757;
 }
 
 aside a{
@@ -139,7 +141,8 @@ aside a:hover{
 aside ul li a {
   text-decoration: none;
   display: block;
-  transition: 0.2s ease-in all;
+  transition: 2s ease-in all;
+  color: #fdfdfd;
 }
 
 aside ul li a:hover {
@@ -159,7 +162,7 @@ aside ul li:hover > ul {
 
 aside ul ul li{
   min-width:170px;
-	float:none;
 	display:list-item;
 	position: relative;
+  background-color: #575757;
 }
