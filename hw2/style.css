@@ -120,7 +120,7 @@ aside {
  
 }
 
-aside ol{
+aside ul{
   list-style: none;
   padding-left: 15px;
   width: 250px;
@@ -136,13 +136,30 @@ aside a:hover{
   background-color: #acacac;
 }
 
-aside ol li a {
+aside ul li a {
   text-decoration: none;
   display: block;
   transition: 0.2s ease-in all;
 }
 
-aside ol li a:hover {
+aside ul li a:hover {
   text-decoration: none;
   transform: scale(1.01);
+}
+
+aside ul ul{
+  display: none;
+  position: relative;
+  top: 100%;
+}
+
+aside ul li:hover > ul {
+  display:inherit;
+}
+
+aside ul ul li{
+  min-width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
 }
