@@ -117,11 +117,11 @@ footer .menu {
 }
 
 aside {
- float: left;
- max-height:0px;
+  float: left;
+  max-height: 0px;
 }
 
-aside ul{
+aside ul {
   list-style: none;
   padding-left: 15px;
   width: 250px;
@@ -129,19 +129,19 @@ aside ul{
   background-color: #575757;
 }
 
-aside a{
-text-decoration: none;
-color: black;
+aside a {
+  text-decoration: none;
+  color: black;
 }
 
-aside a:hover{
+aside a:hover {
   background-color: #acacac;
 }
 
 aside ul li a {
   text-decoration: none;
   display: block;
-  transition: 2s ease-in all;
+  transition: 0.3s ease-in all;
   color: #fdfdfd;
 }
 
@@ -150,19 +150,19 @@ aside ul li a:hover {
   transform: scale(1.01);
 }
 
-aside ul ul{
+aside ul ul {
   display: none;
   position: relative;
   top: 100%;
 }
 
-aside ul li:hover > ul {
-  display:inherit;
+aside ul li:hover>ul {
+  display: inherit;
 }
 
-aside ul ul li{
-  min-width:170px;
-	display:list-item;
-	position: relative;
+aside ul ul li {
+  min-width: 170px;
+  display: list-item;
+  position: relative;
   background-color: #575757;
 }
