@@ -6,6 +6,11 @@ body {
   background-color: #f5f5f7;
 }
 
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 header {
   width: 100%;
   background-color: #444;
@@ -21,7 +26,7 @@ header a:hover {
   color: white;
 }
 
-header .top {
+header .top .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,11 +39,6 @@ header .menu {
   background-color: #333333;
   padding: 15px;
   font-size: 14px;
-}
-
-.wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .menu ul {
@@ -117,7 +117,7 @@ footer .menu {
 }
 
 aside {
- 
+ float: left;
 }
 
 aside ul{
