@@ -180,7 +180,7 @@ aside ul ul li {
   margin-top: 30px;
   display: flex;
   padding: 15px;
-  border: 1px solid black;
+  border: 2px solid #707070;
 }
 
 .push__icon {
@@ -201,12 +201,12 @@ aside ul ul li {
 }
 
 .push.active {
-  background-color: black;
+  background-color: #333333;
   color: white;
 }
 
 .slider {
-  border: 1px solid black;
+  border: 2px solid #707070;
   min-height: 200px;
 }
 
@@ -218,9 +218,10 @@ aside ul ul li {
 .card-list {
 display: flex;
 justify-content: space-between;
+flex-wrap: wrap;
 }
 .card {
-  border: 2px solid #575757;
+  border: 2px solid #707070;
   padding: 15px;
   padding-bottom: 90px;
   display: flex;
@@ -263,10 +264,11 @@ background-color: black;
   align-items: center;
 }
 .card__btn div:nth-child(1) {
-  background-color: black;
-  color: white;
+  background-color: #333333;
+  color: rgb(230, 230, 230);
 }
 
 .card__btn div:nth-child(2) {
-  background-color: gray;
+  background-color: #575757;
+  color: rgb(230, 230, 230);
 }
