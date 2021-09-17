@@ -87,6 +87,7 @@ header .menu {
   justify-content: center;
   align-items: center;
   min-width: 195px;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -377,6 +378,9 @@ aside ul ul li {
 
 .product__description-cartBtn .count input {
   max-width: 97px;
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
 }
 
 .product__slider-preview {
@@ -400,6 +404,7 @@ aside ul ul li {
 .product__review-stars {
   display: flex;
   align-items: center;
+  margin: 15px;
 }
 
 
@@ -469,6 +474,7 @@ aside ul ul li {
 .tab-item td {
   padding: 10px 45px;
   border: 1px solid black;
+  min-width: 200px;
 }
 
 .tab-item th {
@@ -505,6 +511,7 @@ aside ul ul li {
   background-color: #f5f5f5;
   border: 1px solid black;
   padding: 10px 30px;
+  width: 200px;
   font-size: 16px;
   transition: color 0.15s ease-in-out;
   cursor: pointer;
@@ -529,4 +536,69 @@ aside ul ul li {
 .product__review-tabs>label:not(:first-of-type):hover {
   background-color: #575757;
   color: #d6d6d6;
+}
+
+.rec__title {
+  text-align: center;
+  margin: 30px;
+}
+
+.rec {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contacts {
+  padding: 15px;
+}
+
+.contacts__title-head {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.contacts__address table{
+  width: 100%;
+  background: transparent;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 14px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.contacts__map iframe{
+  display: flex;
+  justify-content: center;
+  margin:30px auto;
+  width: 100%;
+  max-height: 300px;
+}
+
+
+.contacts__inp input {
+  display: block;
+  width: 70%;
+  margin: 15px;
+}
+
+.contacts__inp label{
+  float: left;
+  width: 30%;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.contacts__title-foot {
+  border-bottom: 1px solid black;
+}
+
+input.btn{
+  width: 300px;
+}
+
+.contacts__inp-submit{
+  display: flex;
+  justify-content: flex-end;
 }
