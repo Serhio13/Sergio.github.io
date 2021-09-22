@@ -7,6 +7,7 @@
   --red-icon: #f53737;
   --orange-icon: #ff9320;
   --blue-icon: #0079ff;
+  --color-active-decription: white;
 }
 
 body {
@@ -205,6 +206,10 @@ aside ul ul li {
 .push.active {
   background-color: var(--background-color-active);
   color: var(--color-active);
+}
+
+.active .push__text-description{
+  color: var(--color-active-decription);
 }
 
 .red {
