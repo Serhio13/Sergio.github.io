@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+:root {
+  --color: rgb(0, 0, 0);
+  --color-active: rgb(255, 255, 255);
+  --background-color-active: #921ad3;
+  --red-icon: #f53737;
+  --orange-icon: #ff9320;
+  --blue-icon: #0079ff;
+  --color-active-decription: white;
+}
+
 body {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
@@ -173,7 +183,11 @@ aside ul ul li {
 
 .push__icon {
   width: 20%;
+  font-size: 30px;
+  display: flex;
 }
+
+
 
 .push__text {
   width: 80%;
@@ -186,11 +200,32 @@ aside ul ul li {
 
 .push__text-description {
   font-weight: 400;
+  color: var(--color);
 }
 
 .push.active {
-  background-color: #333333;
-  color: white;
+  background-color: var(--background-color-active);
+  color: var(--color-active);
+}
+
+.active .push__text-description{
+  color: var(--color-active-decription);
+}
+
+.red {
+  color: var(--red-icon);
+}
+
+.orange {
+  color: var(--orange-icon);
+}
+
+.blue {
+  color: var(--blue-icon);
+}
+
+.push__icon .fa-truck {
+  transform: scale(-1, 1);
 }
 
 .slider {
