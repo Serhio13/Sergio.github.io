@@ -79,7 +79,7 @@ header .menu {
 }
 
 .top_inp {
-  width: 500px;
+  min-width: 350px;
   font-size: 14px;
   background-color: #575757;
   border: none;
@@ -673,4 +673,46 @@ footer .menu {
   width: 100%;
   padding: 15px;
   font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+ .wrapper {
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+}
+
+@media (max-width: 900px) {
+  .top .wrapper {
+    flex-wrap: wrap;
+  }
+  .menu.wrapper ul {
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+
+  .top .tel1{
+    order: 0;
+  }
+  .top .top_inp{
+    order: 2;
+    margin-top: 15px;
+  }
+  .top .info{
+    order: 1;
+  }
+}
+
+@media (max-width: 400px) {
+  .menu.wrapper ul {
+    flex-direction: column;
+  }
+  .menu.wrapper ul li a{
+    display: block;
+    padding: 5px;
+  }
+  .menu.wrapper li:first-child a{
+    padding-left: 5px;
+  }
+
 }
