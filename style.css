@@ -204,15 +204,17 @@ aside ul ul li {
 
 .main {
   display: flex;
+  width: 100%;
 }
 
 .main__left {
-  width: 30%;
+  width: 25%;
   padding: 15px;
+  padding-right: 0px;
 }
 
 .main__right {
-  width: 70%;
+  width: 75%;
   padding: 15px;
 }
 
@@ -272,8 +274,35 @@ aside ul ul li {
 
 .slider {
   border: 2px solid #707070;
-  min-height: 200px;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
 }
+
+.slider__text{
+  position: absolute;
+  text-align: center;
+  font-style: bold;
+  font-size: 32px;
+  width: 100%;
+  top: 5%;
+}
+
+.slider__img {
+  position: relative;
+}
+
+.slider__img-rarrow {
+  position: absolute;
+  top: 50%;
+}
+.slider__img-larrow {
+  position: absolute;
+}
+
 
 .main__right-title {
   text-align: center;
