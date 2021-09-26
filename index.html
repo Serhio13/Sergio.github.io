@@ -27,6 +27,7 @@
           <div class="head__top-right">
             <div class="head__top-account">
               <i class="fas fa-user"></i><span>Мой аккаунт</span>
+              <i class="fas fa-sort-down"></i>
             </div>
             <div class="head__top-phone">
               <a href="tel: +375333527690">+375 (33) 352-76-90</a>
@@ -74,47 +75,43 @@
         </ul>
       </aside>
 
-      <div class="push active">
-        <div class="push__icon">
+      <div class="info active">
+        <div class="info__icon">
           <i class="fas fa-star"></i>
         </div>
-        <div class="push__text">
-          <div class="push__text-title">lorem</div>
-          <div class="push__text-description">Lorem ipsum dolor sit amet consectetur, orem ipsum dolor sit amet
-            consecteturadipisicing elit. Earum neque
+        <div class="info__text">
+          <div class="info__text-title">Гарантия качества</div>
+          <div class="info__text-description">Возможность полной проверки товара до оплаты. Гарантия 1 год. Обслуживаниев официальном центре Apple!
           </div>
         </div>
       </div>
-      <div class="push red">
-        <div class="push__icon">
+      <div class="info red">
+        <div class="info__icon">
           <i class="fas fa-child"></i>
         </div>
-        <div class="push__text">
-          <div class="push__text-title">lorem</div>
-          <div class="push__text-description">Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet
-            consecteturadipisicing elit. Earum neque
+        <div class="info__text">
+          <div class="info__text-title">Отличный сервис</div>
+          <div class="info__text-description">У нас самые профессиональные консультации по работе с техникой Apple и сотни довольных покупателей качественным обслуживанием.
           </div>
         </div>
       </div>
-      <div class="push orange">
-        <div class="push__icon">
+      <div class="info orange">
+        <div class="info__icon">
           <i class="fas fa-ruble-sign"></i>
         </div>
-        <div class="push__text">
-          <div class="push__text-title">lorem</div>
-          <div class="push__text-description">Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet
-            consectetur,adipisicing elit. Earum neque
+        <div class="info__text">
+          <div class="info__text-title">Привлекательные цены</div>
+          <div class="info__text-description">Не смотря на все наши преймущества,наши цены остаются низкими!
           </div>
         </div>
       </div>
-      <div class="push blue">
-        <div class="push__icon">
+      <div class="info blue">
+        <div class="info__icon">
           <i class="fas fa-truck"></i>
         </div>
-        <div class="push__text">
-          <div class="push__text-title">lorem</div>
-          <div class="push__text-description">Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet
-            consectetur,adipisicing elit. Earum neque
+        <div class="info__text">
+          <div class="info__text-title">Гарантия доставки</div>
+          <div class="info__text-description">Мы бережно упаковывем и отправляем товар, контроллируя доставку каждого продукта индивидуально.
           </div>
         </div>
       </div>
@@ -124,27 +121,32 @@
 
     <div class="main__right">
       <div class="slider">
+        <div class="slider__img-larrow">
+          <i class="fas fa-chevron-left fa-2x"></i>
+        </div>
+        <div class="slider__img-rarrow">
+          <i class="fas fa-chevron-right fa-2x"></i>
+        </div>
+        <div class="slider__text">
+          <span>iPhone 6<br>Супер тонкое решение</span>
+        </div>
         <div class="slider__inside">
-          <div class="slider__text">
-            <span>iPhone 6<br>Супер тонкое решение</span>
-          </div>
+
           <div class="slider__img">
-            <div class="slider__img-larrow">
-              <i class="fas fa-chevron-left"></i>
-            </div>
+
             <img src="images/slider.png">
-            <div class="slider__img-rarrow">
-              <i class="fas fa-chevron-right"></i>
-            </div>
+
           </div>
         </div>
       </div>
-      <div class="card-list"></div>
-      <h2 class="main__right-title">Лучшие товары</h2>
+
+      <div class="main__right-title">Лучшие товары</div>
       <section class="card-list">
 
         <div class="card">
-          <div class="card__img"></div>
+          <div class="card__img">
+            <img src="images/products/iPhone6S/iphone6s-rose.jpg">
+          </div>
           <div class="card__title">iPhone 6s 128Gb Gold
           </div>
           <div class="card__price">64990 руб.</div>
@@ -155,8 +157,10 @@
         </div>
 
         <div class="card">
-          <div class="card__img"></div>
-          <div class="card__title">iPhone 6s 128Gb Gold
+          <div class="card__img">
+            <img src="images/products/iPhone6S/iphone6s-silver.jpg">
+          </div>
+          <div class="card__title">iPhone 6s 128Gb Silver
           </div>
           <div class="card__price">64990 руб.</div>
           <div class="card__btn">
@@ -166,8 +170,10 @@
         </div>
 
         <div class="card">
-          <div class="card__img"></div>
-          <div class="card__title">iPhone 6s 128Gb Gold
+          <div class="card__img">
+            <img src="images/products/iPhone6S/iphone6s-gray.jpg">
+          </div>
+          <div class="card__title">iPhone 6s 16Gb Space
           </div>
           <div class="card__price">64990 руб.</div>
           <div class="card__btn">
@@ -177,10 +183,12 @@
         </div>
 
         <div class="card">
-          <div class="card__img"></div>
-          <div class="card__title">iPhone 6s 128Gb Gold
+          <div class="card__img">
+            <img src="images/products/iPhone6/iphone6-gold.jpg">
           </div>
-          <div class="card__price">64990 руб.</div>
+          <div class="card__title">iPhone 6 16Gb Gold
+          </div>
+          <div class="card__price">39990 руб.</div>
           <div class="card__btn">
             <div>Добавить в корзину</div>
             <div>Купить в 1 клик</div>
@@ -188,10 +196,12 @@
         </div>
 
         <div class="card">
-          <div class="card__img"></div>
-          <div class="card__title">iPhone 6s 128Gb Gold
+          <div class="card__img">
+            <img src="images/products/iPhone6/iphone6-gray.jpg">
           </div>
-          <div class="card__price">64990 руб.</div>
+          <div class="card__title">iPhone 6 16Gb Space
+          </div>
+          <div class="card__price">39990 руб.</div>
           <div class="card__btn">
             <div>Добавить в корзину</div>
             <div>Купить в 1 клик</div>
@@ -199,10 +209,12 @@
         </div>
 
         <div class="card">
-          <div class="card__img"></div>
-          <div class="card__title">iPhone 6s 128Gb Gold
+          <div class="card__img">
+            <img src="images/products/iPhone6/iphone6-silver.jpg">
           </div>
-          <div class="card__price">64990 руб.</div>
+          <div class="card__title">iPhone 6 16Gb Silver
+          </div>
+          <div class="card__price">39990 руб.</div>
           <div class="card__btn">
             <div>Добавить в корзину</div>
             <div>Купить в 1 клик</div>
@@ -210,10 +222,12 @@
         </div>
 
         <div class="card">
-          <div class="card__img"></div>
-          <div class="card__title">iPhone 6s 128Gb Gold
+          <div class="card__img">
+            <img src="images/products/iPhone5S/iphone5s-gray.jpg">
           </div>
-          <div class="card__price">64990 руб.</div>
+          <div class="card__title">iPhone 5s 16Gb Space
+          </div>
+          <div class="card__price">19500 руб.</div>
           <div class="card__btn">
             <div>Добавить в корзину</div>
             <div>Купить в 1 клик</div>
@@ -221,10 +235,12 @@
         </div>
 
         <div class="card">
-          <div class="card__img"></div>
-          <div class="card__title">iPhone 6s 128Gb Gold
+          <div class="card__img">
+            <img src="images/products/iPhone5S/iphone5s-gold.jpg">
           </div>
-          <div class="card__price">64990 руб.</div>
+          <div class="card__title">iPhone 5s 16Gb Gold
+          </div>
+          <div class="card__price">19500 руб.</div>
           <div class="card__btn">
             <div>Добавить в корзину</div>
             <div>Купить в 1 клик</div>
@@ -232,10 +248,12 @@
         </div>
 
         <div class="card">
-          <div class="card__img"></div>
-          <div class="card__title">iPhone 6s 128Gb Gold
+          <div class="card__img">
+            <img src="images/products/iPhone5S/iphone5s-silver.jpg">
           </div>
-          <div class="card__price">64990 руб.</div>
+          <div class="card__title">iPhone 5s 32Gb Silver
+          </div>
+          <div class="card__price">19700 руб.</div>
           <div class="card__btn">
             <div>Добавить в корзину</div>
             <div>Купить в 1 клик</div>
@@ -245,18 +263,28 @@
     </div>
   </main>
   <footer>
-    <nav class="menu wrapper">
-      <ul>
-        <li><a href="index.html">Айфонсервис | Техника Apple</a></li>
-        <li><a href="product.html">Продукты</a></li>
-        <li><a href="page.html">Гарантия</a></li>
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Ремонт</a></li>
-        <li><a href="#">Скидки</a></li>
-        <li><a href="guaranty.html">Контакты</a></li>
-      </ul>
-    </nav>
-    <div class="top wrapper">
+    <div class="footer__top">
+      <div class="foot__top-navbar wrapper">
+        <div class="foot__top-title">
+          <i class="fas fa-mobile"></i><a href="#">Айфонсервис <span>| Техника Apple</span></a>
+        </div>
+        <nav class="foot__top-links">
+          <ul>
+            <li><a href="#" class="active">Гарантия</a></li>
+            <li><a href="#" class="active">Доставка</a></li>
+            <li><a href="#" class="active">Ремонт</a></li>
+            <li><a href="#" class="active">Скидки</a></li>
+            <li><a href="#" class="active">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="foot__top-sm">
+          <a href="https://vk.com"><i class="fab fa-vk"></i></a>
+          <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <div>
       <div class="foot">
         <a href="tel:+7490999999" title="Телефон" class="tel">+7 (490) 99-99-99</a> <br>
         <a href="tel:+7490999999" title="Заказать звонок">Заказать звонок</a>
