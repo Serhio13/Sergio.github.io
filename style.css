@@ -374,7 +374,7 @@ aside ul ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px;
+  margin-bottom: 10px;
   position: relative;
 }
 
@@ -871,4 +871,123 @@ footer .menu {
 .foot__top-sm a{
   padding: 5px;
   font-size: 25px;
+}
+
+
+
+
+
+@media (max-width: 1190px) {
+  .wrapper {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1170px) {
+  .head__top-input input {
+    min-width: 270px;
+  }
+}
+
+@media (max-width: 900px) {
+  .head__top{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .info {
+    display: none;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .main__right {
+    width: 100%;
+  }
+  .head__bottom-cart {
+    min-width: 100px;
+    margin: 0px;
+  }
+  .main__left {
+    width: 100%;
+  }
+  .footer__top {
+    padding-top: 15px;
+  }
+  .foot__top-navbar {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .foot__top-sm {
+    padding: 0;
+    border: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .head__bottom-cart {
+    min-width: 30px;
+    margin: 0px;
+  }
+  .head__bottom-cart span{
+    display: none;
+  }
+  .main__right {
+    align-items: center;
+  }
+  .slider {
+    min-height: 350px;
+  }
+  .slider__text span{
+    font-size: 28px;
+  }
+  .card-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .head__bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .head__bottom-cart {
+    order: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+  }
+  .head__bottom-cart span{
+    display: inline;
+  }
+  .head__bottom-nav {
+    order: 1;
+  }
+  .slider {
+    min-height: 250px;
+  }
+  .slider__text span{
+    font-size: 24px;
+  }
+  .head__bottom-nav ul li{
+    font-size: 14px;
+    padding-left: 5px;
+  }
+  .foot__top-links ul li{
+    font-size: 14px;
+    padding-left: 5px;
+  }
+}
+
+@media (max-width: 350px) {
+  .head__bottom-nav ul li{
+    font-size: 13px;
+    padding-left: 5px;
+  }
+  .foot__top-links ul li{
+    font-size: 13px;
+    padding-left: 5px;
+  }
 }
