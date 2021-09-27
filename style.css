@@ -325,33 +325,18 @@ aside ul ul li {
 .slider__img {
 }
 
-.slider__img-rarrow {
+.slider__arrows {
   position: absolute;
-  top: 50%;
-  right: 3%;
-  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   color: gray;
 }
 
-.slider__img-rarrow i:hover{
+.slider__arrows i:hover{
   color: gray;
   transform: scale(1.3);
 }
-
-.slider__img-larrow i:hover{
-  color: gray;
-  transform: scale(1.3);
-}
-
-
-.slider__img-larrow {
-  position: absolute;
-  top: 50%;
-  left: 3%;
-  transform: translateY(-50%);
-  color: gray;
-}
-
 
 .main__right-title {
   text-align: center;
