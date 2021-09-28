@@ -331,6 +331,7 @@ aside ul ul li {
   display: flex;
   justify-content: space-between;
   color: gray;
+  padding: 0 15px;
 }
 
 .slider__arrows i:hover{
