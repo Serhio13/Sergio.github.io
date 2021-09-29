@@ -42,3 +42,24 @@
     text-decoration: none;
     color: #000;
 }
+
+@media (max-width: 576px) {
+    .wrapper {
+      max-width: 100%;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .header__nav {
+      flex-direction: column;
+    }
+    .header__nav-menu ul{
+      display: flex;
+      flex-direction: column;
+    }
+    .header__cart{
+      display: flex;
+      align-items: center;
+    }
+  }
