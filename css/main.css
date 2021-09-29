@@ -41,26 +41,19 @@ body {
 }
 
 .fresh__left {
- width: 527px;
- padding-top: 90px;
+ max-width: 35%;
  display: flex;
  flex-direction: column;
- justify-content: space-between;
+ justify-content: space-evenly;
+ padding-right: 20px;
 }
 
 .fresh__right {
+  max-width: 65%;
 }
 
 .fresh__left-title {
-  font-size: 78px;
-}
-
-.fresh__left-title span{
-  line-height: 90px;
-}
-
-.fresh__left-discription {
-  font-size: 18px;
+  font-size: 70px;
 }
 
 .fresh__left-btn {
@@ -72,8 +65,16 @@ body {
   align-items: center;
   width: 300px;
   height: 58px;
+  cursor: pointer;
 }
 
+.fresh__slider{
+  position: relative;
+}
+
+.fresh__slider-arrows {
+  position: absolute;
+}
 
 @media (max-width: 1400px) {
   .wrapper {
@@ -84,6 +85,12 @@ body {
 @media (max-width: 1200px) {
   .wrapper {
     max-width: var(--lg);
+  }
+  .fresh__left-title {
+    font-size: 50px;
+  }
+  .fresh__left-discription {
+    font-size: 14px;
   }
 }
 
