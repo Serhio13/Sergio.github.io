@@ -1,0 +1,52 @@
+.Howitworks {
+  width: 100%;
+  height: 657px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  padding-top: 60px;
+}
+
+.Howitworks__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Howitworks__card-list {
+  display: flex;
+  padding-top: 30px;
+}
+
+.Howitworks__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  padding-bottom: 30px;
+}
+
+.Howitworks__card-title {
+  text-align: center;
+  font-size: 27px;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Howitworks__btn {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  margin: 15px;
+}
