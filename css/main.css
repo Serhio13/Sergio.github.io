@@ -7,6 +7,7 @@ font-family: 'Roboto', sans-serif; */
   --font-roboto: 'Roboto', sans-serif;
   --accent: #0126DE;
   --gray: #F5EDE7;
+  --text: #000;
   --xxl: 1320px;
   --xl: 1140px;
   --lg: 960px;
@@ -16,7 +17,7 @@ font-family: 'Roboto', sans-serif; */
 
 body {
   font-family: 'DM Sans', sans-serif;
-  color: #000;
+  color: var(--text);
   background-color: var(--gray);
   font-size: 18px;
 }
@@ -38,12 +39,6 @@ body {
 @media (max-width: 1200px) {
   .wrapper {
     max-width: var(--lg);
-  }
-  .fresh__left-title {
-    font-size: 50px;
-  }
-  .fresh__left-discription {
-    font-size: 14px;
   }
 }
 

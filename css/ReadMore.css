@@ -36,11 +36,6 @@
     padding: 20px 0;    
 }
 
-.readTop__info-button,
-.readBottom__info-button {
-    border: 1px solid #000;
-}
-
 .readBottom {
     display: flex;
     justify-content: center;

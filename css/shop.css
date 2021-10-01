@@ -28,11 +28,3 @@
   font-size: 27px;
 }
 
-.btn.shop__card-btn {
-  display: flex;
-  justify-content: center;
-  color: var(--accent);
-  border: 1px solid var(--accent);
-  width: 200px;
-  height: 40px;
-}
