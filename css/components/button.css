@@ -1,0 +1,78 @@
+.btn {
+  max-width: 300px;
+  display: inline-block;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+  padding: 15px 45px;
+  font-size: 22px;
+  border-radius: 35px;
+  text-align: center;
+  position: relative;
+  outline: none;
+  transition: all .1s ease;
+  cursor: pointer;
+}
+
+.btn:focus,
+.btn:hover {
+  text-decoration: none;
+  color: lighten(var(--accent), 5%);
+}
+
+.btn:hover {
+  background-color: lighten(var(--accent), 5%)
+}
+
+.btn:active {
+  background-color: darken(var(--accent), 5%)
+}
+
+.btn-black {
+  border: 1px solid var(--text);
+  color: var(--text);
+}
+
+.shop__card-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  width: 200px;
+  height: 40px;
+  border-radius: 35px;
+}
+
+.foot__top-btn {
+  text-transform: uppercase;
+  border: 1px solid black;
+  border-radius: 10px;
+  Width: 480px;
+  padding: 15px 45px;
+  font-size: 17px;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .btn {
+    max-width: 250px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .btn {
+    max-width: 200px;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn {
+    padding: 5px;
+    font-size: 12px;
+    margin: 10px;
+  }
+}

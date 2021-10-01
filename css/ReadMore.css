@@ -1,0 +1,54 @@
+.ReadMore {
+    min-height: 982px;
+}
+
+.read {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    position: relative;
+}
+
+.readTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.readTop__info-title,
+.readBottom__info-title {
+    text-transform: uppercase;
+}
+
+.readTop__info,
+.readBottom__info {
+    width: 50%;
+    padding: 0 40px;
+    position: relative;
+}
+
+.readTop__info-description,
+.readBottom__info-description {
+    font-size: 26px;
+    line-height: 40px;
+    padding: 20px 0;    
+}
+
+.readBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sunTop {
+    position: absolute;
+    right: 5%;
+}
+
+.sunBottom {
+    position: absolute;
+    bottom: 1%;
+    right: 40%;
+}
