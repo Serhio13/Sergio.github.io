@@ -54,7 +54,6 @@
 
 .sunBottom {
     position: absolute;
-    /*transform: translateY(200%);*/
     bottom: 1%;
     right: 40%;
 }

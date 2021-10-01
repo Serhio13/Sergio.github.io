@@ -1,0 +1,24 @@
+.tarlabakes {
+    background-color: #fff;
+}
+
+.bakes {
+    padding: 45px 0;
+}
+
+.bakes__title {
+    text-align: center;
+    font-size: 43px;
+    line-height: 60px;
+    padding: 15px;
+}
+
+.bakes__cardlist {
+    display: flex;
+    justify-content: center;
+}
+
+.bakes__cardlist img {
+    padding: 10px;
+    overflow: hidden;
+}
