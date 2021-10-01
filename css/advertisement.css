@@ -20,8 +20,9 @@
 }
 
 .adv__card-img {
-    width: 400px;
     padding: 20px;
+    padding-bottom: 0;
+    max-height: 250px;
 }
 
 .adv__card-title {
@@ -32,4 +33,22 @@
 .adv__card-description {
     text-align: center;
     padding: 10px;
+}
+
+@media (max-width: 1400px) {
+    .adv__card {
+        flex: 1 1 200px;
+    }
+}
+
+@media (max-width: 992px) {
+    .adv-cardlist {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .adv__card {
+        width: 100%;
+    }
 }

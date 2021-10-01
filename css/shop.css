@@ -28,3 +28,29 @@
   font-size: 27px;
 }
 
+@media (max-width: 1400px) {
+  .shop__card {
+    flex: 1 1 300px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .shop__card-name{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .shop__cardlist {
+    display: flex;
+    padding-bottom: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .shop__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

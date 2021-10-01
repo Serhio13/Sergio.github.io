@@ -68,3 +68,11 @@
     padding: 10px;
   }
 }
+
+@media (max-width: 768px) {
+  .btn {
+    padding: 5px;
+    font-size: 12px;
+    margin: 10px;
+  }
+}

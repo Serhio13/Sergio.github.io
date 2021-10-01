@@ -1,6 +1,5 @@
 .Howitworks {
   width: 100%;
-  min-height: 657px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +19,7 @@
 
 .Howitworks__card-list {
   display: flex;
+  align-items: center;
   padding-top: 30px;
 }
 
@@ -39,4 +39,11 @@
   text-transform: uppercase;
 }
 
-
+@media (max-width: 768px) {
+  .Howitworks__card-list {
+    flex-direction: column;
+  }
+  .Howitworks__card {
+    padding: 0px;
+  }
+}
