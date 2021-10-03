@@ -13,8 +13,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 40px;
-  font-weight: 600;
+  font-family: var(--font-roboto);
+  font-size: 43px;
 }
 
 .Howitworks__card-list {
@@ -35,6 +35,7 @@
 .Howitworks__card-title {
   text-align: center;
   font-size: 27px;
+  font-family: var(--font-roboto);
   padding: 5px 0;
   text-transform: uppercase;
 }
@@ -43,7 +44,18 @@
   .Howitworks__card-list {
     flex-direction: column;
   }
+
   .Howitworks__card {
     padding: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Howitworks {
+    padding: 15px;
+  }
+
+  .Howitworks__card-list {
+    padding-top: 0px;
   }
 }
