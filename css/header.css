@@ -30,6 +30,10 @@
   color: #000;
 }
 
+.header a:hover {
+  color: var(--accent);
+}
+
 .header__cart {
   display: flex;
   align-items: flex-end;
