@@ -37,7 +37,7 @@
 }
 
 @media (max-width: 1200px) {
-  .shop__card-name{
+  .shop__card-name {
     font-size: 18px;
   }
 }
@@ -49,14 +49,17 @@
     flex-direction: column;
     align-items: center;
   }
+
   .shop__card {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .shop {
     padding-bottom: 0px;
   }
+
   .shop__card:last-child {
     padding-bottom: 0px;
   }
