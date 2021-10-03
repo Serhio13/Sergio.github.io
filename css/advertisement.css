@@ -57,7 +57,6 @@
     .adv-cardlist {
         width: 100%;
         display: flex;
-        flex-direction: column;
         align-items: center;
         padding: 5px;
     }
@@ -78,3 +77,11 @@
     }
 }
 
+@media (max-width: 576px) {
+    .adv__card {
+        width: 100%;
+    }
+    .adv-cardlist {
+        padding: 0;
+    }
+}
