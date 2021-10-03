@@ -5,6 +5,6 @@
 
 @media (max-width: 768px) {
     .picture {
-        padding: 0px;
+        display: none;
     }
 }
