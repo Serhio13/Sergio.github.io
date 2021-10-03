@@ -27,9 +27,6 @@ body {
   margin: 0 auto;
 }
 
-
-
-
 @media (max-width: 1400px) {
   .wrapper {
     max-width: var(--xl);
