@@ -103,6 +103,9 @@
 }
 
 @media (max-width: 576px) {
+    .read {
+        padding: 0;
+    }
     .readTop,
     .readBottom {
         display: flex;
