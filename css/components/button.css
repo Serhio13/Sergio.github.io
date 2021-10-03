@@ -6,6 +6,7 @@
   text-decoration: none;
   padding: 15px 45px;
   font-size: 22px;
+  font-family: var(--font-roboto);
   border-radius: 35px;
   text-align: center;
   position: relative;
@@ -42,6 +43,7 @@
   width: 200px;
   height: 40px;
   border-radius: 35px;
+  font-family: var(--font-roboto);
 }
 
 .foot__top-btn {
@@ -52,6 +54,7 @@
   padding: 15px 45px;
   font-size: 17px;
   text-align: center;
+  font-family: var(--font-roboto);
 }
 
 @media (max-width: 1200px) {

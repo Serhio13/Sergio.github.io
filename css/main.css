@@ -59,9 +59,3 @@ body {
     max-width: 100%;
   }
 }
-
-@media (max-width: 768px) {
-  .foot__bottom-logo {
-    display: none;
-  }
-}

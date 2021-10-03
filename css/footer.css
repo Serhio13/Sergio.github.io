@@ -19,10 +19,12 @@
 .foot__top-title {
     font-size: 50px;
     text-transform: uppercase;
+    font-family: var(--font-roboto);
 }
 
 .foot__top-info {
     font-size: 31px;
+    font-family: var(--font-roboto);
 }
 
 
@@ -42,6 +44,7 @@
 
 .foot__bottom span{
     line-height: 60px;
+    font-family: var(--font-roboto);
 }
 
 .foot__bottom-sm ul li{
