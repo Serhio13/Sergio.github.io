@@ -22,3 +22,9 @@
     padding: 10px;
     overflow: hidden;
 }
+
+@media (max-width: 992px) {
+    .tarlabakes {
+        display: none;
+    }
+}
