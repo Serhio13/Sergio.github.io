@@ -1,7 +1,7 @@
 .btn
   max-width: 200px
   display: inline-block
-  background-color: #FF715B
+  background-color: $accent
   color: white
   text-decoration: none
   padding: 10px 20px
@@ -10,3 +10,8 @@
   outline: none
   transition: all .1s ease
   cursor: pointer
+
+@media (max-width: 768px)
+  .btn
+    max-width: 150px
+    font-size: 14px
