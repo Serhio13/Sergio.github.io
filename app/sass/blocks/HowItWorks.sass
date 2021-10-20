@@ -1,0 +1,49 @@
+.howitworks
+    width: 100%
+    padding-top: 150px
+    &__cardlist
+        display: flex
+        justify-content: center
+        align-items: center
+    &__card
+        width: 20%
+        height: 270px
+        padding: 15px
+        margin: 5px
+        display: flex
+        flex-direction: column
+        justify-content: flex-end
+        align-items: center
+        background-color: #F8F8F8;
+        &:hover
+            img
+                transform: scale(1.1)
+            background-color: #fff
+            box-shadow: 0px 12px 30px rgba(200, 180, 180, 0.2)
+        &-title
+            font-size: 20px
+            font-weight: 700
+            color: $main-color
+            padding: 15px 0
+        &-desc
+            font-size: 14px
+            color: $gray-color
+            font-family: $font-ptSans
+            text-align: center
+
+@media (max-width: 1200px)
+    .howitworks__card
+        &-title
+            padding: 0
+            font-size: 18px
+        &-desc
+            font-size: 14px
+
+@media (max-width: 992px)
+    .howitworks
+        padding-top: 50px
+    .howitworks__cardlist
+        flex-direction: column
+    .howitworks__card
+        height: auto
+        width: 100%

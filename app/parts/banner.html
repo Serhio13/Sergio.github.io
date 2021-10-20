@@ -1,20 +1,52 @@
 <section>
     <div class="banner wrapper">
         <div class="banner__slider">
-            <img src="../images/banner/banner.jpg">
+            <div class="banner__slider-img">
+                <img src="../images/banner/banner.jpg" alt="banner">
+            </div>
+            <div class="banner__slider-img">
+                <img src="../images/banner/Slider1.jpg" alt="banner">
+            </div>
+            <div class="banner__slider-img">
+                <img src="../images/banner/slider2.jpg" alt="banner">
+            </div>
             <div class="banner__slider-text">
-                It’s Time To Explore The World
+                It’s Time To <br> Explore The World
             </div>
             <div class="banner__slider-btn btn">
                 Plan Your Trip
             </div>
         </div>
+
         <div class="banner__search">
-            <div class="banner__search-dest"></div>
-            <div class="banner__search-check"></div>
-            <div class="banner__search-prise"></div>
-            <div class="banner__search-btn btn"></div>
+            <div class="banner__search-dest">
+                <p>Destinations</p>
+                <select>
+                    <option value="1">Arab Egypt</option>
+                    <option value="2">Arab Israel</option>
+                    <option value="3">Arab Turkey</option>
+                </select>
+            </div>
+            <div class="banner__search-check">
+                <p>Check In</p>
+                <input type="date">
+            </div>
+            <div class="banner__search-prise">
+                <p>Price Range</p>
+                <input type="number" placeholder="$500 - $10000" min="500" max="10000">
+            </div>
+            <div class="banner__search-btn btn">
+                Discover Now
+            </div>
         </div>
-        <div class="banner__pagination"></div>
+        <div class="banner__pagination">
+            <div class="banner__pagination-arrows">
+                <i class="fas fa-chevron-left fa" id="left"></i>
+                <i class="fas fa-chevron-right fa" id="right"></i>
+            </div>
+            <div class="banner__pagination-line"></div>
+            <div class="banner__pagination-number">03</div>
+        </div>
     </div>
+
 </section>
