@@ -1,4 +1,4 @@
-# Sergio.github.io
+
 <h2>Main Gulp tasks:</h2>
 
 <ul>
