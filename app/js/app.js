@@ -9,35 +9,50 @@ document.addEventListener('DOMContentLoaded', () => {
 	const right = document.querySelector('#right');
 	const number = document.querySelector('.banner__pagination-number');
 
-	let el = 0
-	images.forEach((el, i) => {
-		if (i === 0) {
-			el.classList.add('active')
-		}
-	})
-	number.textContent = el
+	let el = 0;
+	function firstRender(params) {
+		images.forEach((el, i) => {
+			if (i === 0) {
+				el.classList.add('active')
+			}
+		})
+		number.textContent = el + 1
+	}
+	firstRender();
 
 	function changeSlide() {
+		
 		images.forEach((el) => {
 			el.classList.remove('active')
 		})
 		images[el].classList.add('active')
-		number.textContent = el
+		number.textContent = el + 1
 	}
 
 	left.addEventListener('click', (event) => {
-		if (!event.isTrusted) return;
-		const target = event.target;
-		el = el - 1
+		if (!event.isTrusted) return; //for webpack
+		console.log('left', el);
+		if (el === 0) {
+			el = images.length - 1
+		} else {
+			el = el - 1
+		}
 		changeSlide()
-		
 	})
 
 	right.addEventListener('click', (event) => {
-		if (!event.isTrusted) return;
-		const target = event.target;
-		el = el + 1
+		if (!event.isTrusted) return; //for webpack
+		console.log('right', el);
+		if (el === images.length - 1) el = 0
+		else el = el + 1
 		changeSlide()
 	})
 
+	const btnalert = document.querySelector('.banner__slider-btn');
+	console.log('btnalert', btnalert);
+
+	btnalert.onclick = function() {
+		if (!event.isTrusted) return;
+		alert('You have no money');
+	  };
 })

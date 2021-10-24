@@ -3,6 +3,8 @@
     &__slider
         position: relative
         &-img
+            img
+                max-height: 740px
             display: none
             &.active
                 display: block
@@ -51,10 +53,15 @@
         justify-content: space-between
         align-items: center
         bottom: -50px
-        i
-            padding: 10px
-            border: 2px solid #F5EBE9
-            margin-right: 10px
+        &-arrows
+            i
+                padding: 10px
+                border: 2px solid #F5EBE9
+                margin-right: 10px
+                cursor: pointer
+                &:hover
+                    background-color: $accent
+                    color: white
         &-line
             width: 150px
             height: 2px
