@@ -19,11 +19,27 @@
         &-item
             margin: 10px 
             display: inline-block
+            overflow: hidden
             position: relative
             line-height: 0
+            cursor: pointer
+            transition: all 0.5s ease-out
             img
                 width: 250px
                 height: 300px
+                display: block
+                transition: all 1s ease-out
+            &:hover
+                span
+                    transform: scale(1.1)
+                    bottom: 20%
+                    left: 15%
+                transform: scale(1.03)
+                img
+                    transform: scale(1.3)
+                    filter: blur(1px)
+                &::after
+                    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 5%, rgba(0, 0, 0, 0.8) 100%)
             &::after
                 content: ""
                 display: block
@@ -41,6 +57,7 @@
                 bottom: 10%
                 left: 10%
                 z-index: 1
+                transition: all 0.5s ease-out
     &__card
         width: 50%
         padding-right: 20px
@@ -70,6 +87,8 @@
                 padding: 10px 0
 
 @media (max-width: 768px)
+    .topDest
+        padding: 15px
     .top__list-item
         display: none
     .top__card
