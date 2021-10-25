@@ -1,0 +1,40 @@
+.header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 30px
+    a
+        text-decoration: none
+        color: $main-color
+        transition: all 0.3s ease-out
+        &:hover
+            color: $accent
+    li
+        display: inline
+        list-style: none
+        padding: 15px
+    &__account
+        display: flex
+        align-items: center
+        span
+            padding: 15px
+            padding-left: 10px
+        &-src
+            width: 30px
+            padding-left: 10px
+            border-left: 1px solid gray
+
+@media (max-width: 992px)
+    .header
+        li
+            padding: 5px
+
+@media (max-width: 768px)
+    .header
+        flex-direction: column
+
+@media (max-width: 576px)
+    .header
+        li
+            padding: 0
+            padding-right: 5px
