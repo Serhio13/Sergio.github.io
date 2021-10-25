@@ -10,7 +10,6 @@
         top: 12%
 .top
     position: relative
-    transition: all 1s ease-out // IMPORTANT
     &__list
         width: 92%
         display: flex
@@ -30,6 +29,7 @@
                 span
                     transform: scale(1.1)
                     bottom: 20%
+                    left: 15%
                 transform: scale(1.03)
                 &::after
                     background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 5%, rgba(0, 0, 0, 0.8) 100%)
@@ -50,6 +50,7 @@
                 bottom: 10%
                 left: 10%
                 z-index: 1
+                transition: all 0.5s ease-out
     &__card
         width: 50%
         padding-right: 20px
@@ -79,6 +80,8 @@
                 padding: 10px 0
 
 @media (max-width: 768px)
+    .topDest
+        padding: 15px
     .top__list-item
         display: none
     .top__card

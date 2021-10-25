@@ -6,6 +6,7 @@
     a
         text-decoration: none
         color: $main-color
+        transition: all 0.3s ease-out
         &:hover
             color: $accent
     li
@@ -31,3 +32,9 @@
 @media (max-width: 768px)
     .header
         flex-direction: column
+
+@media (max-width: 576px)
+    .header
+        li
+            padding: 0
+            padding-right: 5px
