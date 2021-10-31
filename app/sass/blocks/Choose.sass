@@ -1,0 +1,170 @@
+.choose
+    padding: 50px
+    padding-top: 150px
+    &__title
+        padding: 20px
+        text-align: center
+        font-size: 40px
+        font-weight: bold
+    &__list
+        display: flex
+    &__place
+        margin: 15px
+        &-triangle
+            width: 140px
+            padding-bottom: 15px
+            float: right
+        &-quadrant
+            padding-bottom: 15px
+            img
+                width: 140px
+                height: 140px
+        &-btn
+            position: relative
+            top: 8%
+            left: 30%
+        &-review
+            background-color: #fff
+            max-width: 80%
+            display: flex
+            justify-content: space-around
+            align-items: center
+            box-shadow: 0px 10px 25px rgba(215, 190, 190, 0.2)
+            position: relative
+            bottom: 7%
+            left: 76px
+            &-left
+                padding: 10px 15px
+                padding-right: 0
+            &-title
+                font-size: 22px
+                font-weight: bold
+                padding: 5px 0px
+            &-overview
+                display: flex
+                justify-content: space-between
+                align-items: flex-end
+            &-coast
+                color: $accent
+                font-weight: bold
+                font-size: 18px
+            &-stars
+                i
+                    font-size: 9px
+                    color: #FFC01E
+                span
+                    color: $gray-color
+                    padding-left: 5px
+            &-plus
+                i
+                    background-color: $accent
+                    color: white
+                    padding: 15px
+
+@media (max-width: 1400px)
+    .choose__place-review
+        left: 48px
+        max-width: 85%
+        &-title
+            font-size: 18px
+        &-coast
+            font-size: 16px
+        &-stars
+            padding-left: 5px
+            i
+                font-size: 8px
+            span
+                padding-left: 0 
+        &-left
+            padding-left: 5px
+
+@media (max-width: 1200px)
+    .choose__place
+        margin: 10px
+        &-triangle
+            width: 120px
+        &-quadrant
+            img
+                width: 120px
+                height: 120px
+        &-btn
+            top: 8%
+            left: 25%
+        &-review
+            left: 41px
+            &-title
+                font-size: 16px
+            &-coast
+                font-size: 12px
+            &-stars
+                padding-left: 5px
+                i
+                    font-size: 7px
+                span
+                    font-size: 12px
+            &-left
+                padding-top: 5px
+                padding-bottom: 5px
+            &-plus
+                i
+                    padding: 10px
+
+@media (max-width: 992px)
+    .choose
+        padding-top: 100px
+        &__place
+            margin: 5px
+            &-triangle
+                width: 100px
+            &-quadrant
+                img
+                    width: 100px
+                    height: 100px
+            &-btn
+                top: 8%
+                left: 12%
+            &-review
+                left: 0px
+                max-width: 100%
+                &-title
+                    font-size: 15px
+                    padding: 0
+                &-coast
+                    font-size: 10px
+                &-stars
+                    padding-left: 5px
+                    i
+                        font-size: 7px
+                    span
+                        font-size: 10px
+                &-left
+                    padding-top: 5px
+                    padding-bottom: 5px
+                &-plus
+                    i
+                        padding: 7px
+                        font-size: 12px
+
+@media (max-width: 768px)
+    .choose
+        padding: 0px
+        &__title
+            font-size: 30px
+            padding-bottom: 10px
+        &__place
+            margin: 5px
+            &-triangle
+                display: none
+            &-quadrant
+                display: none
+            &-review
+                &-overview
+                    flex-direction: column
+                    align-items: flex-start
+            &-btn
+                top: -5%
+                left: 12%
+
+@media (max-width: 576px)
+    .choose__place-btn
+        left: 25%
