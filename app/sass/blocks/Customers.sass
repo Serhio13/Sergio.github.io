@@ -1,13 +1,191 @@
 .customers
+    position: relative
+    &__gradient
+        position: absolute
+        width: 150px
+        height: 150px
+        background-color: #9CD9EC
+        filter: blur(100px)
+        top: 0%
     &__title
         font-size: 40px
         font-weight: bold
         text-align: center
+        padding-bottom: 40px
     &__info
+        height: 450px
         margin-left: auto
         margin-right: auto
         display: flex
         flex-direction: column
+        justify-content: space-evenly
+        align-items: center
         width: 40%
         border-top: 10px solid $accent
         padding: 10px
+        box-shadow: 0px 20px 30px rgba(227, 202, 202, 0.3)
+        &-profile
+            display: flex
+            align-items: center
+            &-name
+                padding-left: 15px
+                p
+                    font-size: 24px
+                    font-weight: bold
+                span
+                    font-family: $font-ptSans
+                    font-size: 18px
+                    font-weight: bold
+                    color: $accent
+        &-desc
+            color: $gray-color
+            text-align: center
+            font-size: 20px
+            padding: 15px
+            padding-bottom: 0
+        &-toolbar
+            color: $gray-color
+            i
+                font-size: 10px
+                padding: 5px
+                &:hover
+                    color: $accent
+                    cursor: pointer
+    #mask4
+        position: absolute
+        top: 27%
+        left: 17%
+        border-radius: 50%
+        border: 5px solid #C549FF
+        box-shadow: 0px 10px 30px #EFD8FA
+    #mask7
+        position: absolute
+        top: 45%
+        left: 3%
+        border-radius: 50%
+        border: 5px solid #FFCA45
+        box-shadow: 0px 10px 30px rgba(253, 216, 122, 0.25)
+    #mask5
+        position: absolute
+        top: 55%
+        left: 20%
+        border-radius: 50%
+        border: 5px solid #FF4567
+        box-shadow: 0px 10px 30px #F0CBD2
+    #mask1
+        position: absolute
+        top: 85%
+        left: 7%
+        border-radius: 50%
+        border: 5px solid #5F45FF
+        box-shadow: 0px 10px 30px #D2CDF4
+    #mask6
+        position: absolute
+        top: 30%
+        right: 5%
+        border-radius: 50%
+        border: 5px solid #18A0FB
+        box-shadow: 0px 10px 30px #C3E2F7
+    #mask3
+        position: absolute
+        top: 60%
+        right: 20%
+        border-radius: 50%
+        border: 5px solid #FFCA45
+        box-shadow: 0px 10px 30px rgba(253, 216, 122, 0.25)
+    #mask2
+        position: absolute
+        top: 90%
+        right: 10%
+        border-radius: 50%
+        border: 5px solid #65CE54
+        box-shadow: 0px 10px 30px #D4EAD0
+
+@media (max-width: 992px)
+    .customers
+        &__info
+            width: 60%
+        #mask4
+            top: 27%
+            left: 10%
+        #mask7
+            top: 45%
+            left: -2%
+        #mask5
+            top: 60%
+            left: 7%
+        #mask1
+            top: 80%
+            left: 3%
+        #mask6
+            top: 30%
+            right: 5%
+        #mask3
+            top: 60%
+            right: 10%
+        #mask2
+            top: 80%
+            right: 3%
+
+@media (max-width: 768px)
+    .customers
+        &__title
+            font-size: 30px
+        &__info
+            width: 60%
+            &-profile
+                &-name
+                    p
+                        font-size: 20px
+                    span
+                        font-size: 16px
+            &-desc
+                font-size: 18px
+                padding: 5px
+        &__gradient
+            filter: blur(130px)
+        #mask4
+            top: 27%
+            left: 8%
+        #mask7
+            top: 45%
+            left: -3%
+        #mask5
+            top: 60%
+            left: 4%
+        #mask1
+            top: 80%
+            left: 0%
+        #mask6
+            top: 30%
+            right: 2%
+        #mask3
+            top: 60%
+            right: 5%
+        #mask2
+            top: 80%
+            right: 0%
+
+@media (max-width: 576px)
+    .customers
+        &__title
+            padding-bottom: 15px
+        &__gradient
+            display: none
+        #mask4
+            display: none
+        #mask7
+            display: none
+        #mask5
+            display: none
+        #mask1
+            display: none
+        #mask6
+            display: none
+        #mask3
+            display: none
+        #mask2
+            display: none
+        &__info
+            width: 100%
+            padding: 5px
